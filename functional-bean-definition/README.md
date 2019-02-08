@@ -53,4 +53,4 @@ Exception in thread "main" org.springframework.beans.factory.BeanCreationExcepti
 Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.sample.Foo]: No default constructor found; nested exception is java.lang.NoSuchMethodException: com.sample.Foo.<init>()
 ```
 
-Tested with GraalVM 1.0.0 RC10
+Tested with GraalVM 1.0.0 RC12

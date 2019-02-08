@@ -9,4 +9,4 @@ INFO: Hello World
 
 This app runs with no errors but doesn't log anything in SVM.
 
-Tested with GraalVM 1.0.0 RC9
+Tested with GraalVM 1.0.0 RC12

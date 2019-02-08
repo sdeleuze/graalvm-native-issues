@@ -15,3 +15,5 @@ As GraalVM native image
 ```
 
 Tested with GraalVM 1.0.0 RC9
+
+Fixed with GraalVM 1.0.0 RC12
