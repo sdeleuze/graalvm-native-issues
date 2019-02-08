@@ -24,7 +24,7 @@ $ java -jar target/rome-1.0-SNAPSHOT.jar
 It does not compile with native image:
 
 ```
-$ native-image -H:Name=target/demo -H:IncludeResources='META-INF/services/.*' --report-unsupported-elements-at-runtime --allow-incomplete-classpath -H:+ReportUnsupportedElementsAtRuntime -cp target/rome-1.0-SNAPSHOT.jar com.sample.App
+$ native-image -H:ReflectionConfigurationFiles=rest.json -H:Name=target/demo -H:IncludeResources='META-INF/services/.*' --report-unsupported-elements-at-runtime --allow-incomplete-classpath -H:+ReportUnsupportedElementsAtRuntime -cp target/rome-1.0-SNAPSHOT.jar com.sample.App
 Build on Server(pid: 8907, port: 32969)
 [target/demo:8907]    classlist:     584.66 ms
 [target/demo:8907]        (cap):     553.10 ms

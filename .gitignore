@@ -26,3 +26,9 @@ hs_err_pid*
 target/
 .idea/
 *.app
+.classpath
+.project
+.factorypath
+.settings/
+
+dependency-reduced*
