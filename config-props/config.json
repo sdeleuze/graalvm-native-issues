@@ -1,12 +1,6 @@
 [
 	{
-		"name": "org.springframework.boot.context.properties.ConfigurationProperties",
-		"allDeclaredConstructors": true,
-		"allDeclaredFields": true,
-		"allPublicMethods": true
-	},
-	{
-		"name": "org.springframework.core.annotation.SynthesizedAnnotation",
+		"name": "com.sample.ConfigurationProperties",
 		"allDeclaredConstructors": true,
 		"allDeclaredFields": true,
 		"allPublicMethods": true

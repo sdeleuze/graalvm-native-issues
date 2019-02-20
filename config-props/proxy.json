@@ -1,3 +1,4 @@
 [
-    ["org.springframework.boot.context.properties.ConfigurationProperties", "org.springframework.core.annotation.SynthesizedAnnotation"]
+
+    ["com.sample.ConfigurationProperties"]
 ]
