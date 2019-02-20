@@ -1,0 +1,11 @@
+[
+	{
+		"name": "io.netty.channel.socket.nio.NioSocketChannel",
+		"methods": [
+			{
+				"name": "<init>",
+				"parameterTypes": []
+			}
+		]
+	}
+]
