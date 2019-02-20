@@ -19,14 +19,30 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>io.netty</groupId>
-			<artifactId>netty-codec-http</artifactId>
-			<version>4.1.31.Final</version>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webflux</artifactId>
+			<version>5.1.4.RELEASE</version>
 		</dependency>
 		<dependency>
-			<groupId>io.netty</groupId>
-			<artifactId>netty-handler</artifactId>
-			<version>4.1.31.Final</version>
+			<groupId>io.projectreactor.netty</groupId>
+			<artifactId>reactor-netty</artifactId>
+			<version>0.8.3.RELEASE</version>
+			<exclusions>
+				<exclusion>
+					<groupId>io.netty</groupId>
+					<artifactId>netty-codec-http2</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>io.netty</groupId>
+					<artifactId>
+						netty-transport-native-epoll
+					</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>io.netty</groupId>
+					<artifactId>netty-handler-proxy</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 	</dependencies>
 
@@ -47,7 +63,7 @@
 									implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
 								<transformer
 									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>com.sample.HttpSnoopClient</mainClass>
+									<mainClass>com.sample.App</mainClass>
 								</transformer>
 							</transformers>
 							<keepDependenciesWithProvidedScope>true</keepDependenciesWithProvidedScope>
