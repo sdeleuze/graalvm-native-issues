@@ -1,0 +1,14 @@
+[
+	{
+		"name": "com.sample.ConfigurationProperties",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "com.sample.Config",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allPublicMethods": true
+	}
+]

@@ -1,0 +1,11 @@
+[
+	{
+		"name": "com.sample.Bar",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "java.util.List"
+	}
+]
