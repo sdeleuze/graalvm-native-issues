@@ -1,20 +1,20 @@
 [
-  {
-    "name": "org.apache.logging.log4j.message.ReusableMessageFactory",
-    "methods": [
-      { "name": "<init>", "parameterTypes": [] }
-    ]
-  },
-  {
-    "name": "org.apache.logging.log4j.message.DefaultFlowMessageFactory",
-    "methods": [
-      { "name": "<init>", "parameterTypes": [] }
-    ]
-  },
-  {
-    "name": "org.apache.logging.log4j.message.ParameterizedMessageFactory",
-    "methods": [
-      { "name": "<init>", "parameterTypes": [] }
-    ]
-  }
+	{
+		"name": "com.sample.App",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "com.sample.Foo",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "com.sample.Bar",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allPublicMethods": true
+	}
 ]
