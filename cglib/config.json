@@ -1,0 +1,62 @@
+[
+	{
+		"name": "com.sample.Config",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "java.lang.reflect.UndeclaredThrowableException",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "java.lang.RuntimeException",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "java.lang.Error",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "java.lang.Throwable",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "java.lang.CloneNotSupportedException",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.springframework.cglib.proxy.NoOp",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.springframework.cglib.proxy.MethodInterceptor",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.springframework.cglib.proxy.Dispatcher",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "java.lang.Object",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allPublicMethods": true
+	}
+]
