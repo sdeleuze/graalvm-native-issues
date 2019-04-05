@@ -1,0 +1,44 @@
+[
+	{
+		"name": "com.sample.Config",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "com.sample.Plain",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.springframework.core.annotation.Order",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.springframework.core.annotation.AttributeMethods",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allDeclaredMethods": true
+	},
+	{
+		"name": "org.springframework.core.annotation.TypeMappedAnnotation",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.springframework.core.annotation.AnnotationTypeMapping",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allPublicMethods": true
+	},
+	{
+		"name": "org.springframework.core.annotation.AttributeMethods",
+		"allDeclaredConstructors": true,
+		"allDeclaredFields": true,
+		"allPublicMethods": true
+	}
+]
