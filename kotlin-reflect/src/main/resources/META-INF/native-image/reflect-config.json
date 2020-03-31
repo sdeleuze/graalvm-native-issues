@@ -1,6 +1,9 @@
 [
   {
-    "name": "com.sample.App",
-    "allPublicMethods": true
+    "name": "kotlin.KotlinVersion",
+    "allPublicMethods": true,
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
   }
 ]
