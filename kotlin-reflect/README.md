@@ -1,4 +1,4 @@
-Related issue on GraalVM bugtracker: [graal#2306](hhttps://github.com/oracle/graal/issues/2306).
+Related issue on GraalVM bugtracker: [graal#2306](https://github.com/oracle/graal/issues/2306).
 
 You can compare bellow the output for regular JVM, GraalVM native with runtime initialization by default
 and GraalVM native with build time initialization by default.
