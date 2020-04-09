@@ -1,4 +1,4 @@
-Related issue on GraalVM bugtracker: [graal#???](TODO).
+Related issue on GraalVM bugtracker: [graal#2327](https://github.com/oracle/graal/issues/2327).
 
 It seems there is a big regression at code removal level between 19.3.1 and 20.0.0.
 
