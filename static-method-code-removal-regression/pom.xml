@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.sample</groupId>
+  <artifactId>static-method-code-removal-regression</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>static-method-code-removal-regression</name>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.graalvm.nativeimage</groupId>
+        <artifactId>native-image-maven-plugin</artifactId>
+        <version>20.1.0</version>
+        <configuration>
+          <mainClass>${main-class}</mainClass>
+          <buildArgs>--allow-incomplete-classpath --no-server --no-fallback --initialize-at-build-time=com.sample.NativeImageDetector -H:+PrintAnalysisCallTree</buildArgs>
+        </configuration>
+        <executions>
+          <execution>
+            <goals>
+              <goal>native-image</goal>
+            </goals>
+            <phase>package</phase>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+  <profiles>
+    <profile>
+      <id>static-field</id>
+      <properties>
+        <main-class>com.sample.AppWithStaticField</main-class>
+      </properties>
+    </profile>
+    <profile>
+      <id>static-method</id>
+      <properties>
+        <main-class>com.sample.AppWithStaticMethod</main-class>
+      </properties>
+    </profile>
+  </profiles>
+
+</project>
